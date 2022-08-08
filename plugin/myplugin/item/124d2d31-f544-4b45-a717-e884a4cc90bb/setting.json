@@ -1,0 +1,27 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "container": {
+    "initCapacity": 30,
+    "loadName": "myplugin/f098aa71-e045-41b2-98c4-667face284a9",
+    "loadType": "Item",
+    "maxCapacity": 30
+  },
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Mesh/Black Pistol/g2047_gun_01_01.png",
+  "itemname": "item_124d2d31-f544-4b45-a717-e884a4cc90bb",
+  "mesh": "asset/Mesh/Black Pistol/g2047_gun_01_01.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/0b9f49e3-5447-4ec2-bf15-152d0ddbe130"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

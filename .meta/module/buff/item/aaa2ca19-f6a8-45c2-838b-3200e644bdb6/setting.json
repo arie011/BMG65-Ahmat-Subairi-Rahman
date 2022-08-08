@@ -1,0 +1,23 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_aaa2ca19-f6a8-45c2-838b-3200e644bdb6"
+    },
+    "sound": {
+      "loop": true,
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Other/Mp3/BGM.mp3"
+      },
+      "volume": {
+        "value": 0.25
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3378a383c24534c47a76c0edb9925fd5"
+    },
+    "VERSION": "0.22"
+  }
+}

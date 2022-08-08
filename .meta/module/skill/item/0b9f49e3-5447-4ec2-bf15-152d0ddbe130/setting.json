@@ -1,0 +1,31 @@
+{
+  "data": {
+    "castAction": "g2035_rifle_idle",
+    "container": {
+      "isValid": true
+    },
+    "defineActionTime": true,
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_0b9f49e3-5447-4ec2-bf15-152d0ddbe130"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 20,
+        "range": 8
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    },
+    "startAction": "pistol_shoot"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "58a50bf004c0f8eb5f9d96912f258e01",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

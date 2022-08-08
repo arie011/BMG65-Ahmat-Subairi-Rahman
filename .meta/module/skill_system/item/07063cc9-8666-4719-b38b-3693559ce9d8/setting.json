@@ -1,0 +1,26 @@
+{
+  "data": {
+    "attackTarget": {
+      "targetType": "hitPlayer"
+    },
+    "castAction": {
+      "castAction": "attack1",
+      "custom_time": true
+    },
+    "cdTime": {
+      "value": 100
+    },
+    "damage": 10,
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_07063cc9-8666-4719-b38b-3693559ce9d8"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3e074077a5afdf67167a8829929671a7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Cube Container/Brown Square Container.actor"
+    },
+    "AI_home": {
+      "homeSize": 2
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_1bab19d4-7a57-4a0e-9b3e-b6b5c655aaee"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "45d281956941d6c4886e243720bf818f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

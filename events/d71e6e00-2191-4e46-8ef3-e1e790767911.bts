@@ -1,0 +1,14 @@
+PART_TOUCH_ENTITY_BEGIN {
+	Damage(damage = 10, entity = $obj2)
+	SetEntityPosition(
+		entity = $obj2,
+		map = "map001",
+		pos = {
+			x = 0.96964800357819,
+			y = 0.91812733650208,
+			z = -20.210199356079
+		},
+		rp = 0,
+		ry = 0
+	)
+}

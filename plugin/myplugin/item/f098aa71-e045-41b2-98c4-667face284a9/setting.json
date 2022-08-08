@@ -1,0 +1,16 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "icon": "",
+  "itemname": "item_f098aa71-e045-41b2-98c4-667face284a9",
+  "needSave": false,
+  "stack_count_max": 30,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

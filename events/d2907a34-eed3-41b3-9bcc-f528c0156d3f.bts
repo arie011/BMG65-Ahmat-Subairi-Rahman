@@ -1,0 +1,5 @@
+PART_TOUCH_ENTITY_BEGIN {
+	AddEntityBuff(buffTime = 40, cfg = "myplugin/c72c6e41-3109-4e67-867d-3a9bb16fbff8", entity = $obj2)
+	ShowTip(entity = $obj2, keepTime = 40, textKey = "3e277097-a67c-49c5-8225-367a61f7ef3b", tipType = "1")
+	GameOverToPlayer(entity = $obj2)
+}

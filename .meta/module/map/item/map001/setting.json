@@ -1,0 +1,316 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8744254808194924545",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8744254808493211649",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "15a55af9-dc98-4c8c-b797-bbe72f0da620",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8745473465619922945",
+        "isVisibleInEditor": false,
+        "massCenter": {
+          "x": 2.4838974475861,
+          "y": 1.1090438365936,
+          "z": -22.622266769409
+        },
+        "name": "heal",
+        "position": {
+          "x": 2.4838974475861,
+          "y": 1.1090438365936,
+          "z": -22.622266769409
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 180
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/a8e47424-af33-4cb2-9d92-99afe199a741",
+            "id": "8745136759813947393",
+            "name": "Flag",
+            "position": {
+              "x": 1.0469921827316,
+              "y": 2.8297305107117,
+              "z": 4.1458311080933
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "46d858f0-e693-4fcb-9213-8e4cc5b5dde2",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Other/Jpg/start_texture.jpg"
+                },
+                "id": "8745090602418323457"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8744255270655016961",
+            "isVisibleInEditor": false,
+            "massCenter": {
+              "x": 1.0083156824112,
+              "y": 0.37804412841797,
+              "z": -21.1019115448
+            },
+            "name": "Spawn",
+            "position": {
+              "x": 1.0083156824112,
+              "y": 0.37804412841797,
+              "z": -21.1019115448
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 4,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "z": 4
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "32f4baa4-aa09-4022-bd72-0af41a1c8af8",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8744255720529707009",
+            "massCenter": {
+              "x": 1.0008987188339,
+              "y": 1.3160438537598,
+              "z": -15.229269981384
+            },
+            "position": {
+              "x": 1.0008987188339,
+              "y": 1.3160438537598,
+              "z": -15.229269981384
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 4,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "z": 4
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "709601ef-9f46-4321-9b8a-a8e7977a8ce8",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8744260220548939777",
+            "massCenter": {
+              "x": 0.90999883413315,
+              "y": 0.33304432034492,
+              "z": -10.284852027893
+            },
+            "position": {
+              "x": 0.90999883413315,
+              "y": 0.33304432034492,
+              "z": -10.284852027893
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "39bbd54d-c423-42e4-a7b8-13ed99a7f3d4",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8744260825054642177",
+            "massCenter": {
+              "x": 1.1006807088852,
+              "y": 1.35604429245,
+              "z": -4.0998983383179
+            },
+            "position": {
+              "x": 1.1006807088852,
+              "y": 1.35604429245,
+              "z": -4.0998983383179
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 6,
+              "z": 7
+            },
+            "size": {
+              "x": 6,
+              "z": 7
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d2907a34-eed3-41b3-9bcc-f528c0156d3f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8744261118308352001",
+            "massCenter": {
+              "x": 1.0278362035751,
+              "y": 2.1810448169708,
+              "z": 3.0092935562134
+            },
+            "name": "Finish",
+            "position": {
+              "x": 1.0278362035751,
+              "y": 2.1810448169708,
+              "z": 3.0092935562134
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 4,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "z": 4
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d71e6e00-2191-4e46-8ef3-e1e790767911",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8744261434889994241",
+            "massCenter": {
+              "x": 0.39068135619164,
+              "y": -6.0649557113647,
+              "z": -9.7410125732422
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "name": "YouDie",
+            "position": {
+              "x": 0.39068135619164,
+              "y": -6.0649557113647,
+              "z": -9.7410125732422
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 18.0178,
+              "y": 0.999987,
+              "z": 38.1973
+            },
+            "size": {
+              "x": 18.017795562744,
+              "y": 0.99998670816422,
+              "z": 38.197280883789
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8745501914654081025",
+        "name": "Obstakel"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/4c8ebe53-f035-4ab3-8bac-de903dc5f2fe",
+        "id": "8745829708221054977",
+        "isVisibleInEditor": false,
+        "name": "Enemy_Boar",
+        "position": {
+          "x": 1.3253135681152,
+          "y": 1.8708744049072,
+          "z": -2.4742519855499
+        },
+        "rotation": {
+          "y": -180
+        },
+        "scale": {
+          "x": 0.579,
+          "y": 0.493,
+          "z": 0.552
+        },
+        "size": {
+          "x": 0.5789999961853,
+          "y": 0.49300000071526,
+          "z": 0.55200016498566
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "dbf5d02f52c09e4fcc623f1200922d0f"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_e36a6043-3063-43d4-b0fc-1d7e265b947d"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/cbe16b85-2213-4162-a6b0-6ad7aa9a2432",
+            "startPos": {
+              "y": 2
+            }
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "52b11611f5c618885c729869d1199e55",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

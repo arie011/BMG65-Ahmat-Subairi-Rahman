@@ -1,0 +1,39 @@
+{
+  "data": {
+    "AntiClockwise": true,
+    "attackTarget": {
+      "entityList": [
+        "myplugin/player1"
+      ],
+      "teamList": [
+        0
+      ]
+    },
+    "castAction": {
+      "castAction": "attack6",
+      "custom_time": true
+    },
+    "cdAnimation": "AntiClockwise",
+    "cdTime": {
+      "value": 100
+    },
+    "damage": 10,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "hurtDistance": 0,
+    "lifeTime": {
+      "value": 0.2
+    },
+    "name": {
+      "value": "skill_system_eb8d4c84-2cea-4011-82c5-9b2423de6875"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0fee8f90b133293bb16aba522fcdc2d9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

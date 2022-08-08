@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_93512810-d0ca-44e3-98f5-0f985e9efc72"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Reload"
+      },
+      "type": "Reload"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e2e4bb0774bba218b97a550b705d6585",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "attackBound": {
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      }
+    },
+    "castAction": {
+      "castAction": "attack"
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "damage": 20,
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_a856f491-3234-422b-9968-4dbed695ed12"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "38423f515cf7e3869bfed391b6cb5b99",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/charactor/charactor_girl/character_girl.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 5,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/eb8d4c84-2cea-4011-82c5-9b2423de6875"
+        }
+      ],
+      "targetType": "any"
+    },
+    "AI_home": {
+      "homeSize": 3
+    },
+    "boundingVolume": {
+      "size": {
+        "z": 0.01
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "z": 0.01
+      }
+    },
+    "checkPartTouchEvent": false,
+    "collision": true,
+    "destroyTime": {
+      "value": 20
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_c5ed9468-4c2f-4a27-89c3-2bf0de1b2b0e"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5e46f3f51222bde871e09fd57e320ae3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

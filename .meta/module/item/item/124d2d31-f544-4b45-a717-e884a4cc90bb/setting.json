@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Mesh/Black Pistol/g2047_gun_01_01.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/0b9f49e3-5447-4ec2-bf15-152d0ddbe130"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemContainer": {
+      "initCapacity": 30,
+      "isValid": true,
+      "itemType": {
+        "item": "myplugin/f098aa71-e045-41b2-98c4-667face284a9"
+      },
+      "maxCapacity": 30
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Black Pistol/g2047_gun_01_01.mesh"
+    },
+    "name": {
+      "value": "item_124d2d31-f544-4b45-a717-e884a4cc90bb"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bd501dbd0166a39190aacda21580bf7b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

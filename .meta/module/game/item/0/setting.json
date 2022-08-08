@@ -1,0 +1,87 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "defaultView": "Back",
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 0.94525301456451,
+        "y": 0.91804627418518,
+        "z": -22.416236877441
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "shops": [
+      {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "cd4f9886-937c-4945-9e45-4021787cd74c"
+            },
+            "item": {
+              "item": "124d2d31-f544-4b45-a717-e884a4cc90bb"
+            },
+            "limitType": "Personal",
+            "name": {
+              "value": "f4d53c8b-74a6-43f4-97d3-936627ad4b54"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "c1dc98a0-8cb2-4689-9afc-ba816bc4eff5"
+            },
+            "item": {
+              "item": "f098aa71-e045-41b2-98c4-667face284a9"
+            },
+            "name": {
+              "value": "1eccd0c4-4cca-4c6a-9c54-3cf0b5418f26"
+            },
+            "num": 20
+          }
+        ],
+        "name": {
+          "value": "df450149-58d5-4b99-9e22-1d596d89a59d"
+        }
+      }
+    ],
+    "showShop": true,
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 1.0460412502289,
+        "y": 0.91804388999939,
+        "z": -22.333673477173
+      }
+    },
+    "unlimitedPlayTime": true,
+    "waitPlayerTime": {
+      "value": 20
+    },
+    "waitStartTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d06104dd76415ca65dad56af9d214b38",
+      "shop.csv": "19151ed1012d5213ae7fd4ecec636d16",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

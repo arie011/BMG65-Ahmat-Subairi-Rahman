@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "attack"
+    },
+    "damage": 10,
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_3f67e285-a227-48a1-9774-f6535ff30968"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "49c080fa3ebae4280c5e44a04f2f1d46",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

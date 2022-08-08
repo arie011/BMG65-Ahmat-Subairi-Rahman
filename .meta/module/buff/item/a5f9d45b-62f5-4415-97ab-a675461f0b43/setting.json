@@ -1,0 +1,16 @@
+{
+  "data": {
+    "continueHeal": 5,
+    "moveFactor": 1,
+    "moveSpeed": 2,
+    "name": {
+      "value": "buff_a5f9d45b-62f5-4415-97ab-a675461f0b43"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ef69ffa5fec0dd20c79442ed17cc5c72"
+    },
+    "VERSION": "0.22"
+  }
+}

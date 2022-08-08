@@ -1,0 +1,31 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Gray Armor Warrior/Passers-by.actor"
+    },
+    "AI_attack": {
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/3f67e285-a227-48a1-9774-f6535ff30968"
+        }
+      ]
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_a88da2ee-f192-4cd5-a09d-2ff1a4f95227"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "443453710827540f1f82e33f06b8e801",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

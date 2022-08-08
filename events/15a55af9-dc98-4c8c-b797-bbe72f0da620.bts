@@ -1,0 +1,4 @@
+PART_CLICKED {
+	RecoverFullHp(entity = $from)
+	SetPartColor(color = [0.0, 1.0, 0.0, 1.0], part = $part1)
+}

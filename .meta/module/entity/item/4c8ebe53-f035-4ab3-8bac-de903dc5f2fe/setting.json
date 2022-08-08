@@ -1,0 +1,132 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Spiky Boar/g2021_ride_pig.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 5,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/07063cc9-8666-4719-b38b-3693559ce9d8"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 3
+    },
+    "boundingVolume": {
+      "size": {
+        "z": 2.01
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "size": {
+        "z": 2.01
+      }
+    },
+    "collision": true,
+    "destroyTime": {
+      "value": 20
+    },
+    "enableAI": true,
+    "followEntityDistanceWhenHasTarget": 5,
+    "girlactor": {
+      "asset": ""
+    },
+    "headPic": {
+      "asset": "asset/Actor/Blue Spiky Boar/zhu.tga"
+    },
+    "hideHp": false,
+    "jumpSpeed": 3,
+    "maxHp": 100,
+    "moveSpeed": 3,
+    "name": {
+      "value": "entity_4c8ebe53-f035-4ab3-8bac-de903dc5f2fe"
+    },
+    "reviveTime": {
+      "value": 20
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RecoverFullHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5b32eab0-2049-481e-a558-709852e8372a"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "50a9d502-d0d5-4f5e-a768-d2e860cd8f89"
+              },
+              "pos": {
+                "x": 673,
+                "y": 295
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5b32eab0-2049-481e-a558-709852e8372a"
+              },
+              "pos": {
+                "x": 1117,
+                "y": 320
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "fa49afe6-f053-4c31-9b9c-a722905920d3"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "50a9d502-d0d5-4f5e-a768-d2e860cd8f89"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "38d66a9a-d26a-4b65-a339-9446b9822a76"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c8cd513da21259207bfe74c6f495db8d",
+      "triggers.bts": "99d72a34f771456d3a688fd33a1e3c77"
+    },
+    "VERSION": "0.22"
+  }
+}

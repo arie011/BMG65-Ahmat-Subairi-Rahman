@@ -1,0 +1,132 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RecoverFullHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "91889dab-e4af-408c-9f0b-5b0919524610"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "91aeb3c2-4760-4a10-b0d8-4afaa745e5c5"
+              },
+              "pos": {
+                "x": 713,
+                "y": 187
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "from"
+                }
+              ],
+              "id": {
+                "value": "91889dab-e4af-408c-9f0b-5b0919524610"
+              },
+              "pos": {
+                "x": 1103,
+                "y": 229
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetPartColor",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "912ea7f7-c131-4121-b3f0-ab4519760ad6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Color",
+                        "rawval": {
+                          "b": 0,
+                          "r": 0
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7ba7abec-9b43-4369-9c29-4c339f44ceed"
+              },
+              "pos": {
+                "x": 724,
+                "y": 369
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "912ea7f7-c131-4121-b3f0-ab4519760ad6"
+              },
+              "pos": {
+                "x": 1102,
+                "y": 442
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d1ea424c-663a-49c6-9700-a1ed0daa39c0"
+            },
+            "type": "Trigger_PartClicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "91aeb3c2-4760-4a10-b0d8-4afaa745e5c5"
+                  },
+                  {
+                    "action": "7ba7abec-9b43-4369-9c29-4c339f44ceed"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d3a4ee68-b049-4b89-8fc7-488d50bd7e0c"
+            }
+          },
+          "type": "Trigger_PartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "b215335406725ca29958110a499dd14d"
+    },
+    "VERSION": "0.22"
+  }
+}

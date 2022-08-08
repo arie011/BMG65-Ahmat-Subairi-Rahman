@@ -1,0 +1,21 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "item_f098aa71-e045-41b2-98c4-667face284a9"
+    },
+    "stack_count_max": 30
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "09b5d71c8bc523c36a61d253bd11648a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "continueDamage": 5,
+    "moveSpeed": -2,
+    "name": {
+      "value": "buff_3d490750-53a5-4e54-bfc6-3306853d3f98"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "36c15baa6515d6f5024363f4d89f67be"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,11 @@
+ENTITY_DAMAGE {
+	SetHp(entity = $obj2, hp = 10)
+}
+
+ENTITY_CLICK {
+	Damage(damage = 20, entity = $obj1)
+}
+
+ENTITY_ENTER {
+	AddEntityBuff(cfg = "myplugin/aaa2ca19-f6a8-45c2-838b-3200e644bdb6", entity = $obj1)
+}
